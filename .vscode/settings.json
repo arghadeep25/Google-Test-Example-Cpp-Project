@@ -1,0 +1,9 @@
+{
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 0, IndentWidth: 4, AlignTrailingComments: true, AllowShortFunctionsOnASingleLine: None, BreakBeforeBraces: Allman, IndentCaseLabels: true, KeepEmptyLinesAtTheStartOfBlocks: false, Language: Cpp, MaxEmptyLinesToKeep: 1, NamespaceIndentation: None, PointerAlignment: Left, SpacesBeforeTrailingComments: 1, Standard: Cpp17, UseTab: Never }",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "C_Cpp.updateChannel": "Insiders",
+    "files.trimTrailingWhitespace": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false
+}
