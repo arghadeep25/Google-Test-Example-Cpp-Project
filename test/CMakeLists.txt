@@ -6,3 +6,4 @@ target_include_directories(runTests PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../inclu
 enable_testing()
 include(CTest)
 add_test(runTests ${CMAKE_CURRENT_SOURCE_DIR}/../build/test/runTests)
+set_tests_properties(${TESTS} PROPERTIES TIMEOUT 1)
