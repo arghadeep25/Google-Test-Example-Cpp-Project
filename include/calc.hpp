@@ -1,5 +1,6 @@
 #pragma once
 
+#include <cassert>
 #include <stdexcept>
 class Calc {
  public:
@@ -9,6 +10,7 @@ class Calc {
   static int sum(const int &x, const int &y) { return x + y; }
   static int diff(const int &x, const int &y) { return x - y; }
   static int div(const int &x, const int &y) {
+    assert(y != 0);
     if (y == 0) {
       throw std::logic_error(0);
     }
